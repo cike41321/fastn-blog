@@ -7,6 +7,10 @@ string title:
 string description:
 string image-src:
 
+-- ftd.row:
+
+-- ftd.desktop:
+
 ;; Blog Card Row
 -- ftd.row:
 id: $wrapper.id
@@ -60,6 +64,72 @@ border-color: rgb(30, 41, 59)
 
 -- end: ftd.row
 ;; END OF Blog Card Row
+
+-- end: ftd.desktop
+
+
+-- ftd.mobile:
+
+
+;; Blog Card Column
+-- ftd.column:
+id: $wrapper.id
+padding.px: 20
+border-radius.px: 12
+spacing.fixed.px: 20
+cursor: pointer
+
+
+;; Blog Image Column
+-- ftd.image:
+anchor.id: $wrapper.id
+top.px: 0
+left.px: 0
+fit: cover
+src: $assets.files.assets.blog-card-bg.png
+height: fill-container
+width: fill-container
+border-radius.px: 12
+z-index: 0
+
+
+;; Blog Image
+-- ftd.image:
+src: $wrapper.image-src
+border-radius.px: 10
+height.fixed.px: 200
+width.fixed.px: 300
+z-index: 1
+border-width.px: 2
+align-self: center
+border-color: rgb(30, 41, 59)
+
+;; Blog Details Column
+-- ftd.column:
+spacing.fixed.px: 20
+z-index: 1
+
+;; Title
+-- ftd.text: $wrapper.title
+color: #fff
+role: $inherited.types.heading-medium
+
+;; Description
+-- ftd.text: $wrapper.description
+color: #fff
+role: $inherited.types.copy-large
+width.fixed.px: 300
+
+-- end: ftd.column
+;; END OF Blog Details Column
+
+-- end: ftd.column
+;; END OF Blog Card Coulumn
+
+-- end: ftd.mobile
+
+
+-- end: ftd.row
 
 -- end: wrapper
 

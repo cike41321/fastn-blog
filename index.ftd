@@ -23,6 +23,14 @@ left.px: 0
 z-index: 0
 
 -- navbar.wrapper:
+title: Rapid Read
+title-link: #
+navlink-1: Home
+link-1: #
+navlink-2: Newsletter
+link-2: #
+navlink-3: Landing Page
+link-3: #
 
 -- hero.wrapper:
 title: Get the latest tech news and insights in minutes
