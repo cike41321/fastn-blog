@@ -1,0 +1,63 @@
+-- import: apneduniya.github.io/fastn-blog/components/blog-card
+
+
+
+-- component wrapper:
+ftd.type-data types: $fastn-quicksand-font.types
+
+
+;; Blog Section
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 160
+padding-horizontal.px: 50
+
+
+-- ftd.text: Latest Blogs
+color: #fff
+role: $inherited.types.heading-medium
+
+;; List of Blogs
+-- ftd.column:
+margin-top.px: 100
+width: fill-container
+align-content: center
+spacing.fixed.px: 80
+
+
+-- blog-card.wrapper:
+id: 1
+title: Hello world
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, tincidunt nunc
+image-src: https://picsum.photos/300/200
+
+-- blog-card.wrapper:
+id: 2
+title: Hello world
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, tincidunt nunc
+image-src: https://picsum.photos/300/200
+
+-- blog-card.wrapper:
+id: 3
+title: Hello world
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, tincidunt nunc
+image-src: https://picsum.photos/300/200
+
+-- blog-card.wrapper:
+id: 4
+title: Hello world
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, tincidunt nunc
+image-src: https://picsum.photos/300/200
+
+
+-- end: ftd.column
+;; END of List of Blogs
+
+-- end: ftd.column
+;; END of Blog Section
+
+-- end: wrapper
+
+
+
+

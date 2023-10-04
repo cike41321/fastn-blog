@@ -1,0 +1,67 @@
+
+
+
+-- component wrapper:
+string id:
+string title:
+string description:
+string image-src:
+
+;; Blog Card Row
+-- ftd.row:
+id: $wrapper.id
+padding-vertical.px: 24
+padding-horizontal.px: 40
+border-radius.px: 12
+spacing.fixed.px: 20
+cursor: pointer
+
+;; Blog Image Column
+-- ftd.image:
+anchor.id: $wrapper.id
+top.px: 0
+left.px: 0
+fit: cover
+src: $assets.files.assets.blog-card-bg.png
+height: fill-container
+width: fill-container
+border-radius.px: 12
+z-index: 0
+
+
+;; Blog Details Column
+-- ftd.column:
+spacing.fixed.px: 20
+z-index: 1
+
+;; Title
+-- ftd.text: $wrapper.title
+color: #fff
+role: $inherited.types.heading-medium
+
+;; Description
+-- ftd.text: $wrapper.description
+color: #fff
+role: $inherited.types.copy-large
+width.fixed.px: 500
+
+-- end: ftd.column
+;; END OF Blog Details Column
+
+;; Blog Image
+-- ftd.image:
+src: $wrapper.image-src
+border-radius.px: 10
+height.fixed.px: 200
+width.fixed.px: 300
+z-index: 1
+border-width.px: 2
+border-color: rgb(30, 41, 59)
+
+-- end: ftd.row
+;; END OF Blog Card Row
+
+-- end: wrapper
+
+
+
