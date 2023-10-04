@@ -2,7 +2,71 @@
 
 
 -- component wrapper:
+string title:
+string title-link:
+string navlink-1:
+string link-1:
+string navlink-2:
+string link-2:
+string navlink-3:
+string link-3:
 ftd.type-data types: $fastn-quicksand-font.types
+
+
+-- ftd.row:
+height: fill-container
+width: fill-container
+
+
+-- ftd.desktop:
+
+-- ftd.row:
+height.fixed.px: 80
+width: fill-container
+padding.px: 40
+spacing.fixed.px: 300
+z-index: 1000
+
+;; Title
+-- ftd.text: $wrapper.title
+color: #fff
+role: $inherited.types.heading-medium
+cursor: pointer
+link: $wrapper.title-link
+
+
+;; Navlinks
+-- ftd.row:
+height: fill-container
+spacing.fixed.px: 40
+
+-- ftd.text: $wrapper.navlink-1
+color: #fff
+role: $inherited.types.heading-tiny
+cursor: pointer
+link: $wrapper.link-1
+
+-- ftd.text: $wrapper.navlink-2
+color: #fff
+role: $inherited.types.heading-tiny
+cursor: pointer
+link: $wrapper.link-2
+
+-- ftd.text: $wrapper.navlink-3
+color: #fff
+role: $inherited.types.heading-tiny
+cursor: pointer
+link: $wrapper.link-3
+
+-- end: ftd.row
+;; END OF NAVLINKS
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+
+-- ftd.mobile:
 
 
 -- ftd.row:
@@ -13,37 +77,17 @@ spacing.fixed.px: 300
 z-index: 1000
 
 ;; Title
--- ftd.text: Rapid Read
+-- ftd.text: $wrapper.title
 color: #fff
 role: $inherited.types.heading-medium
 cursor: pointer
-link: /#hero
-
-;; Navlinks
--- ftd.row:
-height: fill-container
-spacing.fixed.px: 40
-
--- ftd.text: Home
-color: #fff
-role: $inherited.types.heading-tiny
-cursor: pointer
-link: /
-
--- ftd.text: Newsletter
-color: #fff
-role: $inherited.types.heading-tiny
-cursor: pointer
-link: #
-
--- ftd.text: Landing page
-color: #fff
-role: $inherited.types.heading-tiny
-cursor: pointer
-link: #
+text-align: center
+width: fill-container
+link: $wrapper.title-link
 
 -- end: ftd.row
-;; END OF NAVLINKS
+
+-- end: ftd.mobile
 
 -- end: ftd.row
 

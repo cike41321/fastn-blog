@@ -9,6 +9,7 @@ ftd.type-data types: $fastn-quicksand-font.types
 ;; Footer column
 -- ftd.column:
 background.solid: #010101
+height: fill-container
 width: fill-container
 border-top-width.px: 1
 border-color: rgb(30, 41, 59)
