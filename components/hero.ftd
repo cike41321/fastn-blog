@@ -1,0 +1,37 @@
+
+
+-- component wrapper:
+string title: 
+string subtitle:
+ftd.type-data types: $fastn-quicksand-font.types
+
+
+;; Component Column
+-- ftd.column:
+id: hero
+z-index: 1
+width: fill-container
+padding-vertical.px: 165
+padding-horizontal.px: 50
+spacing.fixed.px: 50
+
+
+;; Hero Heading
+-- ftd.text: $wrapper.title
+color: white
+text-align: center
+width: fill-container
+role: $inherited.types.heading-hero
+
+;; Subtitle
+-- ftd.text: $wrapper.subtitle
+color: white
+text-align: center
+width: fill-container
+role: $inherited.types.heading-small
+
+-- end: ftd.column
+;; END OF COMPONENT COLUMN
+
+-- end: wrapper
+
