@@ -37,8 +37,9 @@ z-index: 1000
 
 ;; Title
 -- ftd.text: $wrapper.title
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-medium
 cursor: pointer
 link: $wrapper.title-link
@@ -51,48 +52,54 @@ spacing.fixed.px: 40
 
 -- ftd.text: $wrapper.navlink-1
 if: {$wrapper.navlink-1 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-1
 
 -- ftd.text: $wrapper.navlink-2
 if: {$wrapper.navlink-2 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-2
 
 -- ftd.text: $wrapper.navlink-3
 if: {$wrapper.navlink-3 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-3
 
 -- ftd.text: $wrapper.navlink-4
 if: {$wrapper.navlink-4 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-4
 
 -- ftd.text: $wrapper.navlink-5
 if: {$wrapper.navlink-5 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-5
 
 -- ftd.text: $wrapper.navlink-6
 if: {$wrapper.navlink-6 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-6
@@ -131,8 +138,9 @@ $on-click$: $ftd.toggle($a = $wrapper.on-click)
 
 ;; Title
 -- ftd.text: $wrapper.title
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-medium
 cursor: pointer
 text-align: center
@@ -145,8 +153,9 @@ link: $wrapper.title-link
 id: mobile-navlinks
 height.fixed.vh: 100
 width: fill-container
-background.solid if {wrapper.theme == "light"}: #fff
-background.solid: #000
+;; background.solid if {wrapper.theme == "light"}: #fff
+;; background.solid: #000
+color: $inherited.colors.background.base
 spacing.fixed.px: 40
 padding.px: 40
 anchor: window
@@ -178,48 +187,54 @@ $on-click$: $ftd.toggle($a = $wrapper.on-click)
 
 -- ftd.text: $wrapper.navlink-1
 if: {$wrapper.navlink-1 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-1
 
 -- ftd.text: $wrapper.navlink-2
 if: {$wrapper.navlink-2 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-2
 
 -- ftd.text: $wrapper.navlink-3
 if: {$wrapper.navlink-3 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-3
 
 -- ftd.text: $wrapper.navlink-4
 if: {$wrapper.navlink-4 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-4
 
 -- ftd.text: $wrapper.navlink-5
 if: {$wrapper.navlink-5 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-5
 
 -- ftd.text: $wrapper.navlink-6
 if: {$wrapper.navlink-6 != NULL}
-color if {wrapper.theme == "light"}: #000
-color: #fff
+;; color if {wrapper.theme == "light"}: #000
+;; color: #fff
+color: $inherited.colors.text-strong
 role: $inherited.types.heading-tiny
 cursor: pointer
 link: $wrapper.link-6
