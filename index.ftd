@@ -34,9 +34,8 @@ link-3: #
 theme: dark
 
 -- hero.wrapper:
-title: Get the latest tech news and insights in minutes
-subtitle: Join 1000+ developers and designers who already read our weekly newsletter.
-
+title: Be Sensible Before Taking A Bite
+subtitle: Sensibite can scan a product be it packed or unpacked to fetch its allergen contents, check, and tell the user if he/she should consume that product.
 -- latest-blogs.wrapper:
 
 -- footer.wrapper:
