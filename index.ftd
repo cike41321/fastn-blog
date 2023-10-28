@@ -10,7 +10,8 @@
 id: main-page
 height: fill-container
 width: fill-container
-background.solid: #101013
+background.solid: #FFA583
+
 
 
 ;; Top absolute Image
@@ -23,20 +24,19 @@ left.px: 0
 z-index: 0
 
 -- navbar.wrapper:
-title: Rapid Read
+title: SensiBite
 title-link: #
 navlink-1: Home
 link-1: #
-navlink-2: Newsletter
+navlink-2: About Us
 link-2: #
-navlink-3: Landing Page
+navlink-3: Contact Us
 link-3: #
 theme: dark
 
 -- hero.wrapper:
-title: Get the latest tech news and insights in minutes
-subtitle: Join 1000+ developers and designers who already read our weekly newsletter.
-
+title: Be Sensible Before Taking A Bite
+subtitle: Sensibite can scan a product be it packed or unpacked to fetch its allergen contents, check, and tell the user if he/she should consume that product.
 -- latest-blogs.wrapper:
 
 -- footer.wrapper:

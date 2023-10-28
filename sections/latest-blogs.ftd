@@ -13,7 +13,7 @@ padding-vertical.px: 160
 padding-horizontal.px: 50
 
 
--- ftd.text: Latest Blogs
+-- ftd.text: Features
 color: #fff
 role: $inherited.types.heading-medium
 
@@ -27,29 +27,24 @@ spacing.fixed.px: 80
 
 -- blog-card.wrapper:
 id: 1
-title: Hello world
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, tincidunt nunc
-image-src: https://picsum.photos/300/200
-
+title: Product Scanning
+description:Users can scan the barcode to fetch the allergen content of that particular item or  click/upload a pic of the food they are eating and know its allergen contents.
+image-src: https://img.freepik.com/premium-photo/3d-qr-code-scanning-online-shopping-concept-digital-marketing-shopping-special-offer-promotion-3d-rendering-illustration_265427-830.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais
 -- blog-card.wrapper:
 id: 2
-title: Hello world
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, tincidunt nunc
-image-src: https://picsum.photos/300/200
-
+title: Ingredient Analysis
+description: Once the product is scanned, the app displays detailed information about how a particular food can affect you if the present allergens are to be avoided by the user.
+image-src: https://graphicriver.img.customer.envatousercontent.com/files/128527491/Food+sketch_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=fc29ce74ce4f8420e14740ee51e2d0ab
 -- blog-card.wrapper:
 id: 3
-title: Hello world
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, tincidunt nunc
-image-src: https://picsum.photos/300/200
-
+title: Allergen Alerts
+description: The app is capable of identifying common allergens (e.g., peanuts, dairy, gluten) in the scanned product and alerting users if any allergens are present.
+image-src:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUyloyEqmxpZ_ZgYzJonQ4DsQS7eoocELCr8KM5Vj7LN6tborH6VhuOCbPhpGJR6ZbaGo&usqp=CAU
 -- blog-card.wrapper:
 id: 4
-title: Hello world
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, tincidunt nunc
-image-src: https://picsum.photos/300/200
-
-
+title: Healthier Alternatives
+description: In the "Marketplace" section of the app, users will be able to search for healthier alternatives to the scanned product. 
+image-src: https://img.freepik.com/free-vector/variety-colorful-healthy-food_23-2147590369.jpg
 -- end: ftd.column
 ;; END of List of Blogs
 
