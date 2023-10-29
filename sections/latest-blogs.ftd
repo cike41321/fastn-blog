@@ -9,25 +9,26 @@ ftd.type-data types: $fastn-quicksand-font.types
 ;; Blog Section
 -- ftd.column:
 width: fill-container
-padding-vertical.px: 160
+padding-vertical.px: 16
 padding-horizontal.px: 50
 
 
--- ftd.text: Features
+-- ftd.text: FEATURES
 color: #fff
 role: $inherited.types.heading-medium
-
+padding-vertical.px: 16
 ;; List of Blogs
 -- ftd.column:
-margin-top.px: 100
+margin-top.px: 50
 width: fill-container
-align-content: center
+align-content: center 
 spacing.fixed.px: 80
 
 
 -- blog-card.wrapper:
 id: 1
 title: Product Scanning
+;; align-self: start  
 description:Users can scan the barcode to fetch the allergen content of that particular item or  click/upload a pic of the food they are eating and know its allergen contents.
 image-src: https://img.freepik.com/premium-photo/3d-qr-code-scanning-online-shopping-concept-digital-marketing-shopping-special-offer-promotion-3d-rendering-illustration_265427-830.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais
 -- blog-card.wrapper:
@@ -47,7 +48,23 @@ description: In the "Marketplace" section of the app, users will be able to sear
 image-src: https://img.freepik.com/free-vector/variety-colorful-healthy-food_23-2147590369.jpg
 -- end: ftd.column
 ;; END of List of Blogs
+-- ftd.text: TechStack
+color: #fff
+role: $inherited.types.heading-medium
+padding-vertical.px: 16
+-- ftd.column:
+margin-top.px: 50
+width: fill-container
+align-content: center 
+spacing.fixed.px: 80
 
+-- blog-card.wrapper:
+id: 5
+title: Android Dev
+;; align-self: start  
+description: Kotlin || firebase|| MVVM architecture || Jetpack Library ||  ML  
+image-src: https://miro.medium.com/v2/resize:fit:1400/0*U2p_uxvqSk0ReFHa.jpg
+-- end: ftd.column
 -- end: ftd.column
 ;; END of Blog Section
 

@@ -26,7 +26,7 @@ anchor.id: $wrapper.id
 top.px: 0
 left.px: 0
 fit: cover
-src: $assets.files.assets.blog-card-bg.png
+src: https://static.vecteezy.com/system/resources/thumbnails/002/221/733/original/abstract-flowing-light-ombre-gradient-background-free-video.jpg
 height: fill-container
 width: fill-container
 border-radius.px: 12
@@ -74,11 +74,11 @@ border-color: rgb(30, 41, 59)
 ;; Blog Card Column
 -- ftd.column:
 id: $wrapper.id
-padding.px: 20
+padding.px: 100
 border-radius.px: 12
 spacing.fixed.px: 20
 cursor: pointer
-
+width.fixed.px: 20
 
 ;; Blog Image Column
 -- ftd.image:

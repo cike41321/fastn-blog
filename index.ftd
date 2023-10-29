@@ -10,7 +10,7 @@
 id: main-page
 height: fill-container
 width: fill-container
-background.solid: #FFA583
+background.solid: #330066
 
 
 
@@ -40,7 +40,7 @@ subtitle: Sensibite can scan a product be it packed or unpacked to fetch its all
 -- latest-blogs.wrapper:
 
 -- footer.wrapper:
-copywrite: @2023 Rapid Read
+copywrite: @2023 Binary Brains
 
 ;; Bottom absolute Image
 -- ftd.image:

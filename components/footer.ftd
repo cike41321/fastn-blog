@@ -25,15 +25,6 @@ role: $inherited.types.copy-small
 width: fill-container
 text-align: center
 
-;; Powered by
--- ftd.text: Powered by `fastn` - If you can write, you can code
-color: rgb(203, 213, 225)
-role: $inherited.types.copy-small
-width: fill-container
-text-align: center
-
-
-
 -- end: ftd.column
 ;; END OF FOOTER COLUMN
 
